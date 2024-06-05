@@ -1,0 +1,16 @@
+{
+  "name": "lua-wasm-test",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@permaweb/ao-loader": "^0.0.33"
+  },
+  "scripts": {
+    "start": "node --experimental-wasm-memory64 index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
